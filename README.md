@@ -1,7 +1,7 @@
 Deal1
 =====
 
-L’objectif de ce projet est la création d’un site Web commercial dédié à la vente de produits. Deux types 
+L’objectif de ce projet est la création d’un site Web commercial dédié à la vente de deals. Deux types 
 
 d’utilisateurs peuvent accéder au site : des clients et des administrateurs. 
 

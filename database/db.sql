@@ -1,21 +1,22 @@
---Database Structure
+/*--Database Structure
 --Project: DEAL
 --Team: 1
 -- HIGH-TECH 
-drop table if exists Categorie;
+*/
+drop table if exists categories;
 
-drop table if exists Commande;
+drop table if exists commandes;
 
-drop table if exists Deal;
+drop table if exists deals;
 
-drop table if exists Utilisateur;
+drop table if exists utilisateurs;
 
-drop table if exists Ville;
+drop table if exists villes;
 
 /*==============================================================*/
 /* Table : Categorie                                            */
 /*==============================================================*/
-create table categorie
+create table categories
 (
    id                   int,
    intitule             varchar(254)
@@ -24,7 +25,7 @@ create table categorie
 /*==============================================================*/
 /* Table : Commande                                             */
 /*==============================================================*/
-create table commande
+create table commandes
 (
    id                   int,
    user_id              int,
@@ -37,7 +38,7 @@ create table commande
 /*==============================================================*/
 /* Table : Deal                                                 */
 /*==============================================================*/
-create table deal
+create table deals
 (
    id                   int,
    titre                varchar(254),
@@ -62,7 +63,7 @@ create table deal
 /*==============================================================*/
 /* Table : Utilisateur                                          */
 /*==============================================================*/
-create table utilisateur
+create table utilisateurs
 (
    id                   int,
    id_oauth             varchar(254),
@@ -79,7 +80,7 @@ create table utilisateur
 /*==============================================================*/
 /* Table : Ville                                                */
 /*==============================================================*/
-create table ville
+create table villes
 (
    id                   int,
    nomVille             varchar(254)

@@ -1,87 +1,105 @@
-/*--Database Structure
---Project: DEAL
---Team: 1
--- HIGH-TECH 
-*/
-drop table if exists categories;
+-- phpMyAdmin SQL Dump
+-- version 4.0.4
+-- http://www.phpmyadmin.net
+--
+-- Client: localhost
+-- Généré le: Ven 15 Novembre 2013 à 23:32
+-- Version du serveur: 5.6.12-log
+-- Version de PHP: 5.4.12
 
-drop table if exists commandes;
 
-drop table if exists deals;
 
-drop table if exists utilisateurs;
+--
+-- Base de données: `deal`
+--
+CREATE DATABASE IF NOT EXISTS `deal` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `deal`;
 
-drop table if exists villes;
+-- --------------------------------------------------------
 
-/*==============================================================*/
-/* Table : Categorie                                            */
-/*==============================================================*/
-create table categories
-(
-   id                   int,
-   intitule             varchar(254)
-);
+--
+-- Structure de la table `categories`
+--
 
-/*==============================================================*/
-/* Table : Commande                                             */
-/*==============================================================*/
-create table commandes
-(
-   id                   int,
-   user_id              int,
-   deal_id              int,
-   quantite             int,
-   prixTotal            double,
-   estPayer             int
-);
+CREATE TABLE IF NOT EXISTS `categories` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `intitule` varchar(254) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
-/*==============================================================*/
-/* Table : Deal                                                 */
-/*==============================================================*/
-create table deals
-(
-   id                   int,
-   titre                varchar(254),
-   description          varchar(350),
-   conditions           varchar(350),
-   image                varchar(254),
-   fournisseur          varchar(100),
-   adresse              varchar(254),
-   ville                varchar(50),
-   longitude            float,
-   latitude             float,
-   dateAjout            datetime,
-   dateFin              datetime,
-   prixInitial          double,
-   prixReduit           double,
-   qteDisponible        int,
-   maxParAchat          int,
-   isFeatured           bool,
-   categorie_id         int
-);
+-- --------------------------------------------------------
 
-/*==============================================================*/
-/* Table : Utilisateur                                          */
-/*==============================================================*/
-create table utilisateurs
-(
-   id                   int,
-   id_oauth             varchar(254),
-   nom                  varchar(254),
-   prenom               varchar(254),
-   genre                char(1),
-   email                varchar(254),
-   motDePasse           varchar(254),
-   telephone            varchar(254),
-   ville                varchar(254),
-   type                 int
-);
+--
+-- Structure de la table `commandes`
+--
 
-/*==============================================================*/
-/* Table : Ville                                                */
-/*==============================================================*/
-create table villes
-(
-   id                   int,
-   nomVille             varchar(254)
-);
+CREATE TABLE IF NOT EXISTS `commandes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `deal_id` int(11) NOT NULL,
+  `quantite` int(11) DEFAULT NULL,
+  `prixTotal` double DEFAULT NULL,
+  `estPayer` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `deals`
+--
+
+CREATE TABLE IF NOT EXISTS `deals` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `titre` varchar(254) DEFAULT NULL,
+  `description` varchar(350) DEFAULT NULL,
+  `conditions` varchar(350) DEFAULT NULL,
+  `image` varchar(254) DEFAULT NULL,
+  `fournisseur` varchar(100) DEFAULT NULL,
+  `adresse` varchar(254) DEFAULT NULL,
+  `ville` varchar(50) DEFAULT NULL,
+  `longitude` float DEFAULT NULL,
+  `latitude` float DEFAULT NULL,
+  `dateAjout` datetime DEFAULT NULL,
+  `dateFin` datetime DEFAULT NULL,
+  `prixInitial` double DEFAULT NULL,
+  `prixReduit` double DEFAULT NULL,
+  `qteDisponible` int(11) DEFAULT NULL,
+  `maxParAchat` int(11) DEFAULT NULL,
+  `isFeatured` tinyint(1) DEFAULT NULL,
+  `categorie_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `utilisateurs`
+--
+
+CREATE TABLE IF NOT EXISTS `utilisateurs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_oauth` varchar(254) DEFAULT NULL,
+  `nom` varchar(254) DEFAULT NULL,
+  `prenom` varchar(254) DEFAULT NULL,
+  `genre` char(1) DEFAULT NULL,
+  `email` varchar(254) DEFAULT NULL,
+  `motDePasse` varchar(254) DEFAULT NULL,
+  `telephone` varchar(254) DEFAULT NULL,
+  `ville` varchar(254) DEFAULT NULL,
+  `type` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `villes`
+--
+
+CREATE TABLE IF NOT EXISTS `villes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nomVille` varchar(254) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+

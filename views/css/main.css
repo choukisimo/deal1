@@ -1,0 +1,4094 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden] {
+    display: none;
+}
+html {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-size: 100%;
+}
+html, button, input, select, textarea {
+    font-family: 'Open Sans',sans-serif;
+}
+body {
+    display: table;
+    margin: 0;
+    width: 100%;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active, a:hover {
+    outline: 0 none;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong {
+    font-weight: bold;
+}
+blockquote {
+    margin: 1em 40px;
+}
+dfn {
+    font-style: italic;
+}
+hr {
+    -moz-box-sizing: content-box;
+    height: 0;
+}
+mark {
+    background: none repeat scroll 0 0 #FFFF00;
+    color: #000000;
+}
+p, pre {
+    margin: 1em 0;
+}
+code, kbd, pre, samp {
+    font-family: monospace,serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+q {
+    quotes: none;
+}
+q:before, q:after {
+    content: none;
+}
+small {
+    font-size: 80%;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+dl, menu, ol, ul {
+    margin: 1em 0;
+}
+dd {
+    margin: 0 0 0 40px;
+}
+menu, ol, ul {
+    padding: 0 0 0 40px;
+}
+img {
+    border: 0 none;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+form {
+    margin: 0;
+}
+fieldset {
+    border: 1px solid #C0C0C0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    border: 0 none;
+    padding: 0;
+    white-space: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+button, input {
+    line-height: normal;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"], input[type="radio"] {
+    padding: 0;
+}
+input[type="search"] {
+    -moz-box-sizing: content-box;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html, button, input, select, textarea {
+    color: #000000;
+}
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+img {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+.ir {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    overflow: hidden;
+}
+.ir:before {
+    content: "";
+    display: block;
+    height: 150%;
+    width: 0;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+.visuallyhidden {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+.invisible {
+    visibility: hidden;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+}
+@font-face {
+    font-family: "GothamMedium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("http://oferplan.ideal.es/themes/site_themes/vocento/font/gotham-medium.eot?#iefix") format("embedded-opentype"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/gotham-medium.woff") format("woff"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/gotham-medium.ttf") format("truetype"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/gotham-medium.svg") format("svg");
+}
+@font-face {
+    font-family: "GothamBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("http://oferplan.ideal.es/themes/site_themes/vocento/font/gotham-bold.eot?#iefix") format("embedded-opentype"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/gotham-bold.woff") format("woff"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/gotham-bold.ttf") format("truetype"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/gotham-bold.svg") format("svg");
+}
+@font-face {
+    font-family: "DINNeuzeitGroteskStd-BdCond";
+    font-style: normal;
+    font-weight: normal;
+    src: url("http://oferplan.ideal.es/themes/site_themes/vocento/font/DINNeuzeitGroteskStd-BdCond.eot?#iefix") format("embedded-opentype"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/DINNeuzeitGroteskStd-BdCond.woff") format("woff"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/DINNeuzeitGroteskStd-BdCond.ttf") format("truetype"), url("http://oferplan.ideal.es/themes/site_themes/vocento/font/DINNeuzeitGroteskStd-BdCond.svg") format("svg");
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.2rem;
+    text-rendering: optimizelegibility;
+}
+.barraVocento, .headerCentral {
+    margin: 0 auto;
+    width: 999px;
+}
+body > header {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondoCabecera.png") no-repeat scroll center top #E0E0E0;
+    height: 217px;
+}
+h1 {
+    font-size: 1.6rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+h2 > span {
+    display: block;
+    margin: 0 auto;
+    width: 999px;
+}
+br {
+    clear: both;
+}
+a {
+    color: #00A9C2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.acotado {
+    margin: 0 auto 40px;
+    width: 999px;
+}
+.blk {
+    background-color: #FFFFFF;
+    border: 1px solid #969696;
+    box-shadow: 6px 6px 1px rgba(153, 153, 153, 0.7);
+}
+.rallado {
+    box-shadow: 0 -6px rgba(153, 153, 153, 0.4) inset;
+}
+.bg_h1_green {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_h1_green.png") no-repeat scroll center center #8FA526;
+    text-align: center;
+}
+.bg_h1_blue {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_h1_blue.png") no-repeat scroll center center #0FA6C1;
+    text-align: center;
+}
+.blk.tipo_1 {
+    -moz-box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 23px 36px;
+}
+.blk.tipo_1 label {
+    float: left;
+}
+.blk.tipo_1 h2 {
+    font-size: 1.6rem;
+    margin: 12px 0;
+    text-transform: uppercase;
+}
+.blk.tipo_1 .botonera {
+    float: right;
+    margin-top: -25px;
+}
+.blk_txt {
+    float: left;
+    margin-top: 36px;
+}
+body .formu.viewing .mod_edit, body .formu.editing .mod_view {
+    display: none;
+}
+body .formu.editing .mod_edit, body .formu.viewing .mod_view {
+    display: inline-block;
+}
+body .formu.viewing p.mod_view {
+    display: block;
+    text-transform: none;
+}
+.w150, .formu input.w150[type="text"] {
+    width: 150px;
+}
+.w170 {
+    width: 170px;
+}
+.w250 {
+    width: 250px;
+}
+.w280 {
+    width: 280px;
+}
+.w200 {
+    width: 200px;
+}
+.w327 {
+    width: 327px;
+}
+.w545 {
+    width: 545px;
+}
+.w600 {
+    width: 600px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.mr25 {
+    margin-right: 25px;
+}
+.mr40 {
+    margin-right: 40px;
+}
+.mt5 {
+    margin: 5px 0 0;
+}
+.cb {
+    clear: both;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.fn {
+    float: none !important;
+}
+.blk.tipo_1 .botonera.noFloat {
+    float: none;
+    margin-top: 20px;
+}
+.barraSuperior {
+    background-color: #000000;
+}
+.barraVocento {
+    height: 22px;
+    padding: 6px 0 2px;
+}
+.barraVocento ul {
+    float: right;
+    list-style-type: none;
+    margin: 3px 0 0;
+    padding: 0;
+}
+.barraVocento li {
+    float: left;
+    margin: 0;
+}
+.barraVocento li:after {
+    color: #DADADA;
+    content: "|";
+    padding: 0 8px;
+}
+.barraVocento li:last-child:after {
+    content: none;
+    padding: 0;
+}
+.barraVocento li a {
+    color: #DADADA;
+    font-size: 12px;
+    text-decoration: none;
+}
+.headerCentral {
+    height: 144px;
+}
+.headerCentral figure.logo {
+    float: left;
+    margin-left: 15px;
+    margin-top: 19px;
+    position: relative;
+    width: 365px;
+}
+.headerCentral figure.logo img + img {
+    left: 123px;
+    position: absolute;
+    top: 70px;
+}
+.headerCentral .headerRight {
+    float: left;
+    margin-top: 3px;
+    width: 619px;
+}
+.headerCentral .headerRight .langAndLoc {
+    float: right;
+    min-height: 45px;
+}
+.headerCentral .headerRight .selectBox strong {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.headerCentral .headerRight .selectBox {
+    margin-left: 10px;
+}
+.menuPrincipal, .menuPrincipal ul {
+    background: none repeat scroll 0 0 #000000;
+    height: 43px;
+    line-height: 33px;
+    margin: 0;
+    z-index: 999;
+}
+.menuPrincipal ul {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 0;
+    width: 960px;
+}
+.menuPrincipal li {
+    float: left;
+}
+.menuPrincipal a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menuPrincipal a:hover, .menuPrincipal a.active {
+    background-color: #3AD5F1;
+    color: #000000;
+}
+.menuPrincipal a > h1 {
+    display: inline;
+    font-size: inherit;
+    font-weight: normal;
+    margin: 0;
+}
+.menuPrincipal ul ul.menuSecundario {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: none;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    z-index: 999;
+}
+.menuPrincipal .desplegable {
+    float: left;
+}
+.menuPrincipal .desplegable a {
+    padding-right: 35px;
+}
+.menuPrincipal .desplegable a span {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -986px -535px rgba(0, 0, 0, 0);
+    float: right;
+    height: 30px;
+    width: 30px;
+}
+.menuPrincipal .desplegable a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #3AD5F1;
+}
+.menuPrincipal .desplegable:hover .menuSecundario {
+    display: block;
+}
+ul.menuSecundario li {
+    background: none repeat scroll 0 0 #000000;
+    display: block;
+    margin-top: 1px;
+    width: 100%;
+}
+.menuPrincipal .desplegable ul.menuSecundario li a {
+    background-image: none;
+    padding-right: 10px;
+}
+#menu_usuario {
+    float: right;
+    margin-top: 20px;
+    width: 100%;
+}
+#menu_usuario ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#menu_usuario li {
+    float: left;
+    padding: 3px;
+}
+#menu_usuario li a {
+    color: #000000;
+    font-weight: bold;
+    padding: 0 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu_usuario li a:hover {
+    color: #00A9C2;
+}
+#menu_usuario li:after {
+    color: #666666;
+    content: "|";
+    padding: 0 3px 0 8px;
+}
+#menu_usuario ul.menu_usuario li:after {
+    content: "Â·";
+    padding: 0;
+}
+#menu_usuario ul li:last-child:after, #menu_usuario ul.menu_usuario li:last-child:after {
+    content: none;
+}
+#menu_usuario ul.menu_usuario {
+    float: left;
+}
+#menu_usuario ul.menu_login {
+    float: right;
+}
+#menu_usuario ul.menu_login .welcome {
+    display: none;
+    text-transform: none;
+}
+.headerCentral .headerRight .suscriAndSocial {
+    clear: both;
+}
+.suscriAndSocial > div {
+    float: right;
+    margin-top: 22px;
+}
+#mailingListSubscribe, #mailingListSubscribe fieldset {
+    display: inline-block;
+}
+#mailingListSubscribe legend {
+    font-size: 1.2rem;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+#mailingListSubscribe input[type="text"] {
+    background-color: #FFFFFF;
+    border: 0 none;
+    height: 25px;
+    margin-right: 5px;
+    padding: 0 5px;
+    width: 200px;
+}
+#mailingListSubscribe label {
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
+#registroLightBox {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_lightbox.jpg");
+    background-position: 190px -69px;
+    height: 438px;
+    overflow: visible;
+    width: 710px;
+}
+#registroLightBox .cartel {
+    bottom: 173px;
+    color: #69C6D6;
+    font-size: 1.6rem;
+    left: -5px;
+    position: absolute;
+    transform: rotate(-4deg);
+    z-index: 150;
+}
+#registroLightBox .cartel span {
+    display: block;
+}
+#registroLightBox .cartel strong {
+    color: #0F6B7D;
+}
+#registroLightBox .gente {
+    bottom: 0;
+    left: -40px;
+    position: absolute;
+    z-index: 120;
+}
+#registroLightBox .registroForm {
+    margin-top: -72px;
+    padding-left: 426px;
+    padding-right: 20px;
+}
+#registroLightBox .idioma_edicion {
+    height: 64px;
+}
+#registroLightBox .idioma_edicion label {
+    font-size: 1rem;
+    margin-right: 5px;
+    width: 124px;
+}
+#registroLightBox .idioma_edicion .divSelect {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #F5F5F5 #CDCDCD #CDCDCD;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+}
+#registroLightBox .texto {
+    color: #000000;
+    font-size: 1.6rem;
+    text-align: center;
+}
+#registroLightBox .aceptoLabel {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    margin-top: 0;
+    width: 263px;
+}
+#registroLightBox .custom-checkbox {
+    margin-left: 5px;
+}
+#registroLightBox .custom-checkbox label {
+    font-size: 1rem;
+}
+#registroLightBox .divBoton {
+    margin-bottom: 3px;
+    margin-top: 30px;
+    text-align: center;
+}
+#registroLightBox .siYaReg {
+    font-size: 1.2rem;
+    margin-top: 16px;
+    text-align: center;
+}
+#registroRapidoLightBox {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_lightbox.jpg");
+    background-position: 190px -69px;
+    height: 380px;
+    overflow: visible;
+    width: 750px;
+}
+#registroRapidoLightBox .cartel {
+    bottom: 93px;
+    color: #69C6D6;
+    font-size: 1.6rem;
+    left: 10px;
+    position: absolute;
+    transform: rotate(-4deg);
+    z-index: 150;
+}
+#registroRapidoLightBox .welcome {
+    color: #000000;
+    font-size: 1.4rem;
+    line-height: 17px;
+    padding: 0 125px;
+    text-align: center;
+}
+#registroRapidoLightBox .welcome strong {
+    color: #8FA526;
+}
+#registroRapidoLightBox .registroForm {
+    padding-left: 223px;
+    padding-right: 125px;
+    position: absolute;
+    z-index: 121;
+}
+#registroRapidoLightBox .idioma_edicion {
+    height: 59px;
+}
+#registroRapidoLightBox .idioma_edicion label {
+    font-size: 1rem;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 125px;
+}
+#registroRapidoLightBox .idioma_edicion .divSelect {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #F5F5F5 #CDCDCD #CDCDCD;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+}
+#registroRapidoLightBox .custom-checkbox label {
+    font-size: 1rem;
+    line-height: 16px;
+    padding-top: 11px;
+}
+#registroRapidoLightBox .custom-checkbox span {
+    font-size: 1.2rem;
+}
+#registroRapidoLightBox .divBoton {
+    margin-bottom: 3px;
+    margin-top: 12px;
+    text-align: center;
+}
+#registroRapidoLightBox .gente {
+    bottom: 0;
+    left: -15px;
+    position: absolute;
+    z-index: 120;
+}
+#registroRapidoLightBox .siYaReg {
+    font-size: 1rem;
+    margin-top: 12px;
+    padding-left: 45px;
+}
+.formu input[type="text"], .formu input[type="password"], .formu textarea {
+    -moz-box-sizing: border-box;
+    border: 1px solid #A5A5A5;
+    color: #000000;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    width: 100%;
+}
+.formu textarea {
+    height: 60px;
+    line-height: 14px;
+}
+.formu label, .fechaSelects {
+    display: inline-block;
+    line-height: 20px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.formu .fechaSelects {
+    float: left;
+    margin-top: 15px;
+}
+.formu .divSelect {
+    background-color: #FFFFFF;
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 0 -540px;
+    background-repeat: no-repeat;
+    border: 1px solid #A5A5A5;
+    height: 23px;
+    overflow: hidden;
+}
+.formu .divSelect select {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    font-size: 1.2rem;
+    height: 23px;
+    line-height: 1;
+    padding: 3px;
+}
+.formu .fechaSelects > legend {
+    display: block;
+}
+.formu .fechaSelects > .divSelect {
+    display: inline-block;
+    width: 60px;
+}
+.divSelect.w240c {
+    background-position: 212px -540px;
+    width: 240px;
+}
+.divSelect.w240c select {
+    width: 268px;
+}
+.formu .divSelect {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAMAAAAIAYw9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0QzOEM0NDAwOTc2MTFFM0IzM0FFQkQ4MkM0QzI2Q0EiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0QzOEM0NDEwOTc2MTFFM0IzM0FFQkQ4MkM0QzI2Q0EiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDRDM4QzQzRTA5NzYxMUUzQjMzQUVCRDgyQzRDMjZDQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDRDM4QzQzRjA5NzYxMUUzQjMzQUVCRDgyQzRDMjZDQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pnny714AAAAqUExURf///wAAAOrq6uvr60hISEpKSu7u7uXl5UREREZGRrq6uunp6UNDQ0lJSRAg0yAAAABDSURBVHjaXMtbDgAQDETRoajn/rdLUMX5mkxywdE8IgMl3U8qGKzTx1lMwcvjAzZq62mEY7VSaavVbmslfHKW1QUYAGmdARWL4WLsAAAAAElFTkSuQmCC") no-repeat scroll calc(100% - 4px) center #FFFFFF;
+    width: 100%;
+}
+.formu .divSelect select {
+    width: calc(100% + 28px);
+}
+.formu .divSelect select option {
+    font-size: 16px;
+}
+.btn {
+    font-size: 1rem;
+    height: 26px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.btn.tipo_1 {
+    background: none repeat scroll 0 0 #D2FF19;
+    border: 0 none;
+    padding: 0 10px;
+}
+.btn.tipo_1:hover {
+    background-color: #8FA526;
+    color: #FFFFFF;
+}
+.btn.tipo_2 {
+    background: none repeat scroll 0 0 #00869C;
+    border: 0 none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 0 18px;
+}
+.btn.tipo_2:hover {
+    color: #000000;
+}
+.btn.tipo_3 {
+    background: none repeat scroll 0 0 #0FA6C1;
+    border: 0 none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 0 18px;
+}
+.btn.tipo_3:hover {
+    background-color: #09687A;
+}
+.btn.tipo_4 {
+    background: none repeat scroll 0 0 #A4A4A4;
+    border: 0 none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 0 18px;
+}
+.btn.tipo_4:hover {
+    background-color: #666666;
+}
+.btn.tipo_5 {
+    background: none repeat scroll 0 0 #00A9C2;
+    border: 0 none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 0 18px;
+}
+.btn.tipo_5:hover {
+    background-color: #09687A;
+}
+.btn_in_b {
+    display: inline-block;
+}
+#genericError, .genericError {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 0 -1953px;
+    background-repeat: no-repeat;
+    color: #E350F6;
+    display: none;
+    float: left;
+    line-height: 23px;
+    min-height: 23px;
+    padding-left: 30px;
+}
+body .formu .errorMessage, body .suscriAndSocial .errorMessage {
+    color: #E350F6;
+    font-size: 1rem;
+    margin-top: -2px;
+    position: absolute;
+    text-transform: none;
+}
+.formu input.errorField, .formu textarea.errorField {
+    border: 1px solid #E350F6;
+}
+.forgotPass {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: -1000px -378px;
+    background-repeat: no-repeat;
+    color: #000000;
+    display: inline-block;
+    line-height: 21px;
+    min-height: 22px;
+    padding-left: 30px;
+}
+.selectBox {
+    clear: both;
+    color: #000000;
+    cursor: default;
+    display: inline-block;
+    line-height: 25px;
+    position: relative;
+    text-align: left;
+}
+.selectBox .selected {
+    background: none repeat scroll 0 0 #FFFFFF;
+    overflow: hidden;
+    text-indent: 20px;
+    width: 100px;
+}
+.selectBox span.selectArrow {
+    -moz-user-select: none;
+    background-color: #FFFFFF;
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 0 -540px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align: center;
+    width: 30px;
+}
+.selectBox span.selectArrow, span.selected {
+    float: left;
+    height: 25px;
+    position: relative;
+    z-index: 1;
+}
+.selectBox div.selectOptions {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    left: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    position: absolute;
+    top: 45px;
+    width: 130px;
+    z-index: 999;
+}
+.selectBox .selectOptions span {
+    display: block;
+    line-height: 15px;
+    padding: 5px 20px;
+    width: 100%;
+}
+.selectBox .selectOptions span:hover {
+    background: none repeat scroll 0 0 #4096EE;
+    color: #F6F6F6;
+}
+.selectBox strong {
+    display: block;
+}
+.selectBox.cabBox .selectOptions {
+    width: 120px;
+}
+.selectBox.cabBox .selected {
+    width: 90px;
+}
+.custom-checkbox, .custom-radio {
+    position: relative;
+}
+.custom-checkbox input, .custom-radio input {
+    display: none;
+    left: 5px;
+    margin: 0;
+    position: absolute;
+    top: 8px;
+    z-index: 0;
+}
+.custom-checkbox label, .custom-radio label {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 9px 0 0 25px;
+    position: relative;
+    vertical-align: middle;
+    z-index: 1;
+}
+.custom-checkbox label {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -3px -1460px rgba(0, 0, 0, 0);
+    float: none;
+}
+.custom-checkbox label.checked {
+    background-position: 1px -1511px;
+}
+.custom-radio label {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -3px -1460px rgba(0, 0, 0, 0);
+}
+.custom-radio label.checked {
+    background-position: 1px -1511px;
+}
+.custom-checkbox label.focus, .custom-radio label.focus {
+    outline: 1px dotted #CCCCCC;
+}
+.formu .custom-checkbox label, .formu .custom-radio label {
+    text-transform: none;
+}
+.headerCentral .custom-checkbox, .headerCentral .custom-radio {
+    display: inline-block;
+}
+.headerCentral .custom-checkbox label, .headerCentral .custom-radio label {
+    padding: 9px 0 0 30px;
+}
+.headerCentral .custom-checkbox label {
+    background-position: -3px -58px;
+}
+.headerCentral .custom-checkbox label.checked {
+    background-position: 0 -109px;
+}
+.headerCentral .custom-radio label {
+    background-position: -3px -58px;
+}
+.headerCentral .custom-radio label.checked {
+    background-position: 0 -109px;
+}
+.checkDown {
+    margin-left: 293px;
+    margin-top: 5px;
+}
+main {
+}
+#section_ofertas.submain, .rallado {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_rallado.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 19px;
+}
+#section_ofertas section {
+    margin: 0 auto;
+    width: 999px;
+}
+#section_ofertas article {
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 1px rgba(153, 153, 153, 0.7);
+    float: left;
+    margin: 0 13px 15px 0;
+    min-height: 399px;
+    width: 320px;
+}
+#section_ofertas article > img {
+    border-right: 1px solid rgba(0, 0, 0, 0);
+}
+#section_ofertas article:nth-child(3n+3), #section_ofertas section article.double + article {
+}
+#section_ofertas article h2 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+    margin: 0;
+    min-height: 32px;
+}
+#section_ofertas .barTop {
+    -moz-box-sizing: border-box;
+    height: 224px;
+    padding: 0 0 0 9px;
+    position: relative;
+}
+#section_ofertas .barTop > p {
+    color: #8FA526;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+}
+#section_ofertas .barTop img {
+    border: 1px solid #E2E2E2;
+}
+#section_ofertas .barTop span {
+    background-color: #D1FF19;
+    bottom: 1px;
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: bold;
+    height: 52px;
+    line-height: 52px;
+    position: absolute;
+    right: 9px;
+    text-align: center;
+    width: 83px;
+}
+#section_ofertas .double .barTop span {
+    bottom: 0;
+    right: 0;
+}
+#section_ofertas .barTop strong {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/pixel_trans_blue.png") !important;
+    bottom: 1px;
+    color: #FFFFFF;
+    filter: none !important;
+    font-weight: normal;
+    height: 25px;
+    left: 10px;
+    line-height: 25px;
+    padding-left: 10px;
+    position: absolute;
+    width: 290px;
+}
+#section_ofertas .barMiddle {
+    -moz-box-sizing: border-box;
+    height: 125px;
+    padding: 9px;
+}
+#section_ofertas .barMiddle .vcard {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll 0 -598px rgba(0, 0, 0, 0);
+    margin-top: 7px;
+    padding-left: 17px;
+    width: 101%;
+}
+#section_ofertas .double .barMiddle .vcard {
+    padding-bottom: 4px;
+}
+#section_ofertas .barMiddle .vcard p {
+    margin: 0;
+}
+#section_ofertas .barMiddle .vcard .fn {
+    color: #09687A;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#section_ofertas .barMiddle .vcard .adr span {
+}
+#section_ofertas .barMiddle .vcard .street-address {
+    color: #000000;
+    font-family: 'Open Sans',sans-serif;
+}
+#section_ofertas .barMiddle .vcard .region {
+    color: #000000;
+    text-transform: uppercase;
+}
+#section_ofertas .double .barMiddle .vcard .region {
+    font-weight: bold;
+}
+#section_ofertas .barMiddle .timeOut {
+    margin-top: 2px;
+}
+#section_ofertas .barMiddle .timeOut strong, #section_ofertas .barMiddle .timeOut span.countDown {
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 1.0rem;
+    line-height: 26px;
+}
+#section_ofertas .barMiddle .timeOut strong {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 0 -9px;
+    color: #666666;
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 35px;
+    padding-right: 2px;
+}
+#section_ofertas .barMiddle .timeOut strong:after {
+    color: #666666;
+    content: "|";
+    padding: 0 0 0 5px;
+}
+#section_ofertas .barMiddle .timeOut span.countDown {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 0 -37px;
+    color: #666666;
+    font-weight: bold;
+    padding-left: 22px;
+}
+#section_ofertas .barMiddle .timeOut span.countDown em {
+    font-style: normal;
+}
+.finaliza .days, .finaliza .days_letter, .finaliza.moreThanADay .seconds, .finaliza.moreThanADay .seconds_letter {
+    display: none;
+}
+.finaliza.moreThanADay .days, .finaliza.moreThanADay .days_letter {
+    display: inline;
+}
+#section_ofertas .barBottom {
+    height: 50px;
+}
+#section_ofertas .barBottom span {
+    background-color: #F5F5F5;
+    color: #666666;
+    float: left;
+    font-size: 1.6rem;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    text-align: center;
+    text-decoration: line-through;
+    width: 77px;
+}
+#section_ofertas .barBottom strong {
+    background-color: #D2FF19;
+    color: #000000;
+    float: left;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 103px;
+}
+#section_ofertas .barBottom a, #section_ofertas .barBottom em {
+    background-color: #3AD5F1;
+    color: #000000;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+}
+#section_ofertas .barBottom a:hover {
+    background-color: #09687A;
+    color: #FFFFFF;
+}
+#section_ofertas .barBottom.bannerHome a {
+    font-size: 20px;
+    height: 46px;
+    line-height: 23px;
+    overflow-y: hidden;
+    padding-top: 4px;
+    width: 100%;
+}
+#section_ofertas .barBottom em {
+    background-color: #DBDBDB;
+    font-style: normal;
+}
+#section_ofertas article.double {
+    width: 955px;
+}
+#section_ofertas article.double .barBottom {
+    float: right;
+}
+#section_ofertas article.double .barTop strong {
+    bottom: 0;
+    margin-left: 21px;
+    width: 584px;
+}
+#section_ofertas article.double .barTop {
+    height: 301px;
+    padding-left: 30px;
+}
+#section_ofertas article.double .barMiddle {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/pixel_trans.png") !important;
+    filter: none !important;
+    height: 98px;
+    padding-left: 40px;
+    position: relative;
+}
+#section_ofertas article.double .barBottom {
+    margin-top: -50px;
+    position: relative;
+}
+#section_ofertas article.double h2 {
+    min-height: 0;
+}
+#section_ofertas article.double .barMiddle .vcard .adr {
+    display: inline;
+}
+#section_ofertas article.double .barMiddle .vcard .fn {
+    display: inline;
+    text-transform: uppercase;
+}
+#section_ofertas article.double .barMiddle .vcard .street-address {
+    display: inline;
+}
+#section_ofertas article .barMiddle .descriptionBanner, #section_ofertas article .barMiddle .descriptionSeccTematica {
+    color: #09687A;
+    float: left;
+    font-size: 14px;
+    text-align: justify;
+}
+#section_ofertas .barBottom.seccTematica .countDown {
+    background-color: #FFFFFF;
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 34px -28px;
+    color: #666666;
+    font-style: normal !important;
+    font-weight: bold;
+    line-height: 47px;
+    padding-left: 22px;
+    text-decoration: none;
+    width: 168px;
+}
+#section_ofertas .barBottom.seccTematica .countDown em {
+    background-color: #FFFFFF;
+    color: #666666;
+    float: none;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+#section_ofertas.expired .barMiddle .timeOut strong:after {
+    content: "";
+}
+#section_productos.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_rallado2.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#section_productos section {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 999px;
+}
+#section_productos section article {
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 1px rgba(153, 153, 153, 0.7);
+    float: left;
+    margin: 0 10px 10px 0;
+    min-height: 202px;
+    width: 490px;
+}
+#section_productos article > img {
+    border-right: 1px solid rgba(0, 0, 0, 0);
+}
+#section_productos section article:nth-child(2n+2) {
+    margin: 0 0 10px;
+}
+#section_productos > h2 {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 43px;
+    line-height: 43px;
+    margin: 0;
+}
+#section_productos article h2 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+    margin: 20px 0 0;
+    min-height: 76px;
+}
+#section_productos article h2 a {
+    color: #000000;
+    font-weight: bold;
+}
+#section_productos .barTop {
+    -moz-box-sizing: border-box;
+    float: left;
+    height: 194px;
+    margin-right: 9px;
+    padding: 0 0 0 9px;
+    position: relative;
+    width: 280px;
+}
+#section_productos .barTop > p {
+    color: #8FA526;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+}
+#section_productos .barTop img {
+    border: 1px solid #E2E2E2;
+}
+#section_productos .barTop span {
+    background-color: #D1FF19;
+    bottom: 1px;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 50px;
+}
+#section_productos .barMiddle {
+    -moz-box-sizing: border-box;
+    float: left;
+    height: 161px;
+    padding: 9px;
+    width: 195px;
+}
+#section_productos .barMiddle .vcard {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll 0 -598px rgba(0, 0, 0, 0);
+    margin-top: 7px;
+    padding-left: 17px;
+}
+#section_productos .barMiddle .vcard p {
+    line-height: 2rem;
+    margin: 0 0 5px;
+}
+#section_productos .barMiddle .vcard .fn {
+    color: #09687A;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#section_productos .barMiddle .timeOut {
+    margin-top: 2px;
+}
+#section_productos .barMiddle .timeOut strong, #section_productos .barMiddle .timeOut span.countDown {
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: 26px;
+}
+#section_productos .barMiddle .timeOut strong {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") repeat scroll 0 -653px rgba(0, 0, 0, 0);
+    color: #666666;
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 30px;
+    padding-right: 2px;
+}
+#section_productos .barMiddle .timeOut strong:after {
+    color: #666666;
+    content: "|";
+    padding: 0 0 0 5px;
+}
+#section_productos .barMiddle .timeOut span.countDown {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") repeat scroll 0 -676px rgba(0, 0, 0, 0);
+    color: #666666;
+    font-weight: bold;
+    padding-left: 18px;
+    width: 90px;
+}
+#section_productos .barMiddle .timeOut span.countDown em {
+    font-style: normal;
+}
+.finaliza .days, .finaliza .days_letter, .finaliza.moreThanADay .seconds, .finaliza.moreThanADay .seconds_letter {
+    display: none;
+}
+.finaliza.moreThanADay .days, .finaliza.moreThanADay .days_letter {
+    display: inline;
+}
+#section_productos .barBottom {
+    height: 50px;
+}
+#section_productos .barBottom span {
+    background-color: #F5F5F5;
+    color: #666666;
+    float: left;
+    font-size: 1.1rem;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 5px;
+    text-align: center;
+    text-decoration: line-through;
+    width: 45px;
+}
+#section_productos .barBottom strong {
+    background-color: #D2FF19;
+    color: #000000;
+    float: left;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 63px;
+}
+#section_productos .barBottom a {
+    background-color: #3AD5F1;
+    color: #000000;
+    float: right;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 33px;
+    margin-right: 6px;
+    text-align: center;
+    text-decoration: none;
+    width: 77px;
+}
+#section_productos .barBottom em.finalizado {
+    background-color: #DBDBDB;
+    color: #000000;
+    float: right;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 33px;
+    margin-right: 6px;
+    text-align: center;
+    text-decoration: none;
+    width: 77px;
+}
+#section_productos .barBottom a:hover {
+    background-color: #09687A;
+    color: #FFFFFF;
+}
+#section_productos .go_up {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -999px -657px rgba(0, 0, 0, 0);
+    float: right;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 15px;
+    text-align: center;
+    width: 81px;
+}
+#section_productos .go_up a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#section_productos .go_up a:hover {
+    color: #3AD5F1;
+}
+#section_productos .see_all_products {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -999px -592px rgba(0, 0, 0, 0);
+    float: right;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: 40px;
+    padding-left: 35px;
+    padding-top: 9px;
+}
+#section_productos .see_all_products a {
+    color: #000000;
+    text-decoration: none;
+}
+#section_productos .see_all_products a:hover {
+    color: #000000;
+}
+#section_mkt.submain {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding-top: 19px;
+}
+#section_mkt ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 0;
+    width: 999px;
+}
+#section_mkt ul li {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 0 -704px;
+    background-repeat: no-repeat;
+    color: #333333;
+    float: left;
+    font-family: DINNeuzeitGroteskStd-BdCond,sans-serif;
+    margin: 0 13px 10px 0;
+    min-height: 183px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    width: 208px;
+}
+#section_mkt ul li:nth-child(4n+4) {
+    margin: 0 0 10px;
+}
+#section_mkt ul li.mkt2 {
+    background-position: 0 -887px;
+    color: #FFFFFF;
+}
+#section_mkt ul li.mkt3 {
+    background-position: 0 -1070px;
+}
+#section_mkt ul li.mkt4 {
+    background-position: 0 -1254px;
+    color: #FFFFFF;
+}
+#section_mkt ul li strong {
+    display: block;
+    font-size: 2.6rem;
+    line-height: 27px;
+    margin-top: 12px;
+}
+#section_mkt ul li p {
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+footer #section_menu_footer {
+    background: none repeat scroll 0 0 #333333;
+}
+#section_menu_footer > div {
+    margin: 0 auto;
+    width: 999px;
+}
+#section_menu_footer .pie_col {
+    border-right: 1px solid #E2E2E2;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    width: 220px;
+}
+#section_menu_footer .pie_col ul {
+    list-style: none outside none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+#section_menu_footer .pie_col:first-child ul {
+    margin-left: 0;
+}
+#section_menu_footer .pie_col a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#section_menu_footer .pie_col a:hover {
+    color: #3AD5F1;
+}
+#section_menu_footer .colBanners {
+    float: right;
+    width: 310px;
+}
+#ofertasanterioresbodyid #section_menu_footer .pie_col a.ofertasanteriores, #cuentaamigobodyid #section_menu_footer .pie_col a.cuentaamigo, #ventajasbodyid #section_menu_footer .pie_col a.ventajas, #quieressabermasbodyid #section_menu_footer .pie_col a.quieressabermas, #teayudamosbodyid #section_menu_footer .pie_col a.teayudamos, #contactobodyid #section_menu_footer .pie_col a.contacto, #condicionesdeusobodyid #section_menu_footer .pie_col a.condicionesdeuso, #quienessomosbodyid #section_menu_footer .pie_col a.quienessomos, #queteofrecemosbodyid #section_menu_footer .pie_col a.queteofrecemos, #comofuncionabodyid #section_menu_footer .pie_col a.comofunciona, #exitoentuciudadbodyid #section_menu_footer .pie_col a.exitoentuciudad, #politicaprivacidadbodyid #section_menu_footer .pie_col a.politicaprivacidad {
+    color: #3AD5F1;
+}
+footer #pie {
+    background: none repeat scroll 0 0 #000000;
+    font-size: 1.1rem;
+    padding: 12px 0;
+}
+footer #pie > div {
+    margin: 0 auto;
+    text-align: center;
+    width: 999px;
+}
+footer #pie {
+    color: #A4A4A4;
+}
+footer #pie a {
+    color: #A4A4A4;
+    text-decoration: none;
+}
+footer #pie ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+footer #pie li {
+    display: inline;
+}
+footer #pie li:after {
+    color: #A4A4A4;
+    content: "|";
+    padding: 0 3px 0 8px;
+}
+footer #pie li:last-child:after {
+    content: none;
+}
+footer #pie p {
+    margin: 0;
+}
+#section_menu_footer .colBanners {
+    position: relative;
+}
+#section_menu_footer .colBanners > img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#section_menu_footer .colBanners .socialLinks {
+    left: 0;
+    position: absolute;
+    top: 60px;
+}
+#section_menu_footer .colBanners .socialLinks .twi, #section_menu_footer .colBanners .socialLinks .fac {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: -303px -704px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+}
+#section_menu_footer .colBanners .socialLinks .fac {
+    background-position: -324px -704px;
+}
+#section_menu_footer .colBanners .groupLinks {
+    left: 0;
+    position: absolute;
+    top: 95px;
+}
+#section_menu_footer .colBanners .groupLinks img {
+    margin-right: 35px;
+}
+.aceptarChecks {
+    font-size: 1rem;
+}
+.aceptarChecks.fullWidth {
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+}
+.aceptarChecks.pCentWidth70 {
+    float: left;
+    margin-top: 5px;
+    width: 70%;
+}
+.aceptarChecks label strong {
+    font-size: 1.2rem;
+}
+.botonera {
+    clear: both;
+    text-align: right;
+}
+.init_facebook {
+    margin: 15px 0;
+}
+.init_facebook a:last-child {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 0 -1927px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 1rem;
+    height: 21px;
+    line-height: 20px;
+    padding-right: 7px;
+    text-align: right;
+    width: 188px;
+}
+.init_facebook a:last-child:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+#dialog_register {
+    -moz-box-sizing: border-box;
+    padding: 23px 36px;
+}
+#dialog_register form, #dialog_reset_pass {
+    border-bottom: 1px solid #A4A4A4;
+    display: block;
+    padding-bottom: 15px;
+}
+#dialog_register .botonera .aceptarChecks {
+    float: left;
+}
+#dialog_register label, .forgotPassDiv {
+    float: left;
+}
+#dialog_register .aceptarChecks label {
+    float: none;
+}
+.forgotPassDiv {
+    position: relative;
+    top: 36px;
+}
+#dialog_register .checkDown {
+    clear: both;
+}
+#dialog_register .checkDown label {
+    float: none;
+}
+.noExpirado {
+    color: #8FA526;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: right;
+}
+#detalleDeal .blkDetalleIzq {
+    float: left;
+    height: 391px;
+    width: 380px;
+}
+#detalleDeal.expirado strong.finalizado {
+    color: #000000;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 3.6rem;
+    line-height: 82px;
+    text-align: center;
+}
+.datosPrincipales {
+    height: 210px;
+    padding: 10px 12px 7px;
+}
+.datosPrincipales h1 {
+    color: #666666;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    margin: 0 0 12px;
+    text-transform: none;
+}
+.datosPrincipales .vcard {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento//img/layout/sprite.png") no-repeat scroll -1000px 0 rgba(0, 0, 0, 0);
+    margin-top: 7px;
+    padding-left: 25px;
+}
+.datosPrincipales .vcard p {
+    margin: 0;
+}
+.datosPrincipales .vcard .fn {
+    color: #09687A;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    text-transform: uppercase;
+}
+.datosPrincipales .vcard .street-address {
+    color: #666666;
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+.datosPrincipales .vcard .postal-code, .datosPrincipales .vcard .locality, .datosPrincipales .vcard .region {
+    color: #000000;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+}
+.datosPrincipales .entradilla {
+    color: #666666;
+    font-size: 1em;
+    height: 4.8em;
+    line-height: 1.2;
+    overflow-y: hidden;
+}
+.datosBasicos {
+    height: 164px;
+}
+.datosBasicos ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.datosBasicos ul li {
+    float: left;
+    height: 31px;
+    margin: 0;
+    padding: 10px 17px 0 0;
+    position: relative;
+    text-align: right;
+    width: 173px;
+}
+.datosBasicos ul li em {
+    font-style: normal;
+}
+.datosBasicos ul .b1 {
+    background-color: #F5F5F5;
+    color: #666666;
+    font-size: 2.4rem;
+    text-decoration: line-through;
+}
+.datosBasicos ul .b1 em {
+    font-size: 1.7rem;
+}
+.datosBasicos ul .b2 {
+    background-color: #DBDBDB;
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: 140px 7px;
+    background-repeat: no-repeat;
+    color: #666666;
+    font-size: 2.4rem;
+    padding-right: 55px;
+    width: 135px;
+}
+.datosBasicos ul .b3 {
+    background-color: #8FA526;
+    color: #FFFFFF;
+    font-size: 3.2rem;
+    height: 41px;
+    padding-top: 0;
+}
+.datosBasicos ul .b3 em {
+    font-size: 2.2rem;
+}
+.datosBasicos ul .b4 {
+    background-color: #09687A;
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: -848px -96px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+.datosBasicos ul .b4.finalizado, .datosBasicos ul .b2.finalizado {
+    background-image: none;
+}
+.datosBasicos ul .b5 {
+    background-color: #D2FF19;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    height: 82px;
+    padding-top: 0;
+}
+.datosBasicos ul .b5 em {
+    font-size: 3.1rem;
+}
+.datosBasicos ul .b6 {
+    background-color: #3AD5F1;
+    height: 82px;
+    padding-right: 0;
+    padding-top: 0;
+    width: 190px;
+}
+.datosBasicos ul .b6 a {
+    background-color: #3AD5F1;
+    color: #000000;
+    display: block;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 3.6rem;
+    height: 100%;
+    line-height: 82px;
+    text-align: center;
+}
+.datosBasicos ul .b6 a:hover {
+    background-color: #09687A;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.datosBasicos ul .b6 a:hover + .flecha {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/flecha_azul2.png");
+}
+.datosBasicos ul .b6 .flecha {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/flecha_azul.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    height: 27px;
+    position: absolute;
+    right: -14px;
+    top: 29px;
+    width: 14px;
+    z-index: 102;
+}
+.datosBasicos ul li span:first-child {
+    font-size: 1.1rem;
+    left: 17px;
+    position: absolute;
+    top: 6px;
+}
+.datosBasicos .b4 span.countDown {
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 20px;
+    margin-right: 26px;
+    margin-top: 10px;
+}
+.datosBasicos.pasado ul li.b1 {
+    background-color: #EBEBEB;
+}
+.datosBasicos.pasado ul li.b4 {
+    background-color: #C4C4C4;
+}
+.datosBasicos.pasado ul li.b5 {
+    background-color: #A4A4A4;
+}
+.datosBasicos.pasado ul li.b6, .datosBasicos.pasado ul li.b6 a {
+    background-color: #E2E2E2;
+}
+#multicompra {
+    padding: 20px;
+    width: 700px;
+}
+#multicompra h2 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-top: 0;
+}
+#multicompra ul {
+    counter-reset: item;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#multicompra ul li {
+    border-bottom: 1px solid #A4A4A4;
+    clear: both;
+    margin-bottom: 12px;
+    margin-left: 28px;
+    padding-bottom: 12px;
+    width: 652px;
+}
+#multicompra ul li:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+#multicompra ul li {
+}
+#multicompra ul li:before {
+    color: #09687A;
+    content: counter(item, decimal) " ";
+    counter-increment: item;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: -4px 9px 0 -20px;
+    width: 20px;
+}
+#multicompra .description {
+    float: left;
+    padding-right: 3px;
+    width: 450px;
+}
+#multicompra .description p {
+    color: #09687A;
+    margin: 0 0 8px;
+}
+#multicompra .description strong {
+    color: #000000;
+    font-weight: normal;
+}
+#multicompra .description b {
+    color: #8FA526;
+    font-weight: normal;
+}
+#multicompra .precio {
+    float: left;
+    width: 80px;
+}
+#multicompra .btn {
+    float: left;
+    text-align: center;
+    width: 70px;
+}
+#multicompra .description strong, #multicompra .description b, #multicompra .precio {
+    font-size: 1.4rem;
+}
+#multicompra .wrapScroll {
+    max-height: 700px;
+    overflow-y: auto;
+}
+#multicompra ul li.agotado:before, #multicompra li.agotado p, #multicompra li.agotado strong, #multicompra li.agotado b, #multicompra li.agotado .precio {
+    color: #6E6E6E;
+}
+#multicompra li.agotado .btn.tipo_2 {
+    background: none repeat scroll 0 0 #DADADA;
+    color: #666666;
+}
+#detalleDeal .blkDetalleDer {
+    float: left;
+    height: 391px;
+    overflow: hidden;
+    position: relative;
+    width: 619px;
+}
+.descuento {
+    left: 0;
+    position: absolute;
+    top: 14px;
+    z-index: 99;
+}
+.descuento div {
+    background-color: #D2FF19;
+    height: 63px;
+    width: 113px;
+}
+.descuento div.cityDiscount {
+    background-color: #3AD5F1;
+    color: #086779;
+    font-size: 1.5rem;
+    height: auto;
+    line-height: 16px;
+    padding: 5px 0;
+    text-align: center;
+    width: 113px;
+}
+.descuento span {
+    display: block;
+    font-size: 1.1rem;
+    margin: 0 0 0 8px;
+    padding-top: 5px;
+}
+.descuento strong {
+    display: block;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 2px 5px 0 0;
+    text-align: right;
+}
+.descuento strong em {
+    font-size: 2.1rem;
+    font-style: normal;
+}
+.mensajeGaleriaFotos {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/pixel_trans.png") !important;
+    bottom: 0;
+    color: #666666;
+    filter: none !important;
+    font-size: 1.4rem;
+    font-weight: normal;
+    height: 39px;
+    left: 0;
+    line-height: 39px;
+    position: absolute;
+    text-align: center;
+    width: 619px;
+    z-index: 100;
+}
+.barraAuxDeal {
+    background-color: #626262;
+    clear: both;
+    color: #3AD5F1;
+    font-size: 1.4rem;
+    height: 37px;
+    line-height: 37px;
+    padding: 0 31px 0 9px;
+}
+.barraAuxDeal .compartir, .barraAuxDeal #regala_amigo, .barraAuxDeal .envioCasa {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 5px;
+    padding-left: 25px;
+}
+.barraAuxDeal .compartir {
+    background-position: -1000px -172px;
+}
+.barraAuxDeal #regala_amigo {
+    background-position: -1000px -238px;
+}
+.barraAuxDeal .envioCasa {
+    background-position: -1000px -308px;
+    color: #D3FD35;
+    float: right;
+}
+.col_pestanas {
+    float: left;
+    margin: 17px 0 0;
+    width: 100%;
+}
+.col_pestanas .pestanas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.col_pestanas .pestanas li {
+    float: left;
+    margin: 0 4px;
+    padding: 0;
+}
+.col_pestanas .pestanas li:first-child {
+    margin-left: 8px;
+}
+.col_pestanas .pestanas a {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 10px 15px 5px;
+}
+.col_pestanas .pestanas a:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DBDBDB #DBDBDB -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #096879;
+    padding: 9px 14px 5px;
+}
+.col_pestanas .pestanas a.selected:hover {
+    padding: 10px 15px;
+}
+.col_pestanas .pestanas a.selected, .col_pestanas .pestanas a.once.selected {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: #DBDBDB #DBDBDB -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #096879;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.col_pestanas a.once {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_11870.png") no-repeat scroll center center #EEEEEE;
+    text-indent: -10000px;
+    width: 130px;
+}
+.col_pestanas a.once:hover {
+    background-color: #FFFFFF;
+}
+.contenido {
+    border-top: 1px solid #DBDBDB;
+    clear: both;
+    color: #666666;
+    font-size: 14px;
+    margin: 39px 0 0;
+    padding: 5px 15px;
+}
+.contenido a {
+    color: #096879;
+}
+.contenido p {
+    margin: 9px 0;
+}
+.contenido h2 {
+    color: #09687A;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 5px 0 12px;
+}
+.contenido h3 {
+    color: #8FA526;
+    font-size: 14px;
+    font-weight: bold;
+}
+#condiciones .col_izda, #informacion_local .col_izda {
+    border-right: 1px solid #09687A;
+    float: left;
+    padding: 0 15px 10px 0;
+    width: 48%;
+}
+#condiciones .col_dcha, #informacion_local .col_dcha {
+    float: left;
+    padding-left: 15px;
+    width: 48%;
+}
+#localizacion .mapWrapper {
+    float: left;
+    margin-top: -42px;
+    min-height: 453px;
+    width: 645px;
+}
+#localizacion .col_mapa {
+    float: left;
+    min-height: 453px;
+    width: 324px;
+}
+#localizacion .col_mapa .mapAddress {
+    counter-reset: item;
+    font-size: 1.2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#localizacion .col_mapa .mapAddress li {
+    background: url("http://oferplan-pre.eldiariomontanes.es/themes/site_themes/vocento/img/layout/map_pin.png") no-repeat scroll 0 8px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #BDD7DC;
+    box-shadow: 0 -1px 0 0 #4B909D inset;
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 43px;
+    padding: 8px 0;
+    width: 312px;
+}
+#localizacion .col_mapa .mapAddress li:before {
+    color: #09687A;
+    content: counter(item, decimal) " ";
+    counter-increment: item;
+    float: left;
+    font-weight: bold;
+    margin: 15px 9px;
+}
+#localizacion .col_mapa .mapAddress p {
+    margin: 0 0 3px;
+    padding-left: 40px;
+}
+#localizacion .col_mapa .mapAddress strong {
+    color: #09687A;
+}
+#localizacion .col_mapa .mapAddress li.notVisible {
+    display: none;
+}
+#localizacion .col_mapa .simplePagerContainer {
+    min-height: 453px;
+    position: relative;
+}
+.col_mapa .simplePagerNav {
+    bottom: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.col_mapa .simplePagerNav li {
+    display: inline;
+    margin: 8px;
+}
+.col_mapa .simplePagerNav li a {
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.col_mapa .simplePagerNav li.currentPage a {
+    color: #09687A;
+    font-weight: bold;
+}
+.categ_detalle {
+    background-color: #0FA6C1;
+    color: #FFFFFF;
+    float: right;
+    font-size: 1.4rem;
+    height: 32px;
+    line-height: 32px;
+    padding: 5px 12px;
+    text-transform: uppercase;
+}
+.categ_detalle a {
+    color: #FFFFFF;
+}
+.lbox.ask_dialog {
+    padding: 20px 15px 20px 25px;
+    width: 455px;
+}
+.ask_header, .lboxIris_header {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -240px -1152px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #BEBEBE;
+    margin: 0;
+    padding: 36px 0 10px 59px;
+}
+.lboxIris_header {
+    border-bottom: 0 none;
+    margin: 18px 0 0 25px;
+}
+.ask_body {
+    margin: 0;
+    padding: 0;
+}
+.ask_body label {
+    text-transform: none;
+    width: 455px;
+}
+.ask_body .botonera btn {
+    margin-left: 8px;
+}
+.captchaDiv {
+    margin: 20px 0;
+}
+.captchaDiv #captcha_input {
+    display: inline-block;
+    width: 237px;
+}
+.question_wrapper {
+    font-family: sans-serif;
+}
+.question_wrapper h2 {
+    color: #0FA6C1;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.question_wrapper .date {
+    color: #0FA6C1;
+    text-align: right;
+}
+p.ask {
+    color: #09687A;
+    font-size: 2.7rem;
+    margin: 20px 0;
+}
+a.ask_launcher {
+    background-color: #E2E2E2;
+    color: #666666;
+    float: right;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    padding: 5px 12px;
+}
+#cuentaamigobodyid, #cuentaamigobodyid footer #section_mkt.submain {
+    background-color: #D1D1CF;
+}
+#cuentaamigobodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_tell.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#cuentaamigobodyid .resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_tell.png") no-repeat scroll center top #D1D1CF;
+    min-height: 650px;
+}
+#cuentaamigobodyid .como_invitar {
+    margin: 0 auto;
+    padding-left: 400px;
+    padding-top: 150px;
+    width: 570px;
+}
+#cuentaamigobodyid .como_invitar ul {
+    color: #666666;
+    font-family: DINNeuzeitGroteskStd-BdCond,sans-serif;
+    font-size: 2.4rem;
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+#cuentaamigobodyid .como_invitar ul li {
+    padding-bottom: 30px;
+}
+#cuentaamigobodyid .como_invitar ul li span {
+    color: #8FA526;
+}
+#cuentaamigobodyid .registrate_ahora {
+    float: right;
+    margin-right: 45px;
+}
+#cuentaamigobodyid .cb.registrate {
+    margin-top: -10px;
+}
+#teayudamosbodyid, #teayudamosbodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#teayudamosbodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_faq.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#teayudamosbodyid .resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_faq.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    margin: auto auto 50px;
+    padding-top: 30px;
+    width: 960px;
+}
+#teayudamosbodyid .cab_faq {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_faq2.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    color: #666666;
+    height: 180px;
+    text-align: center;
+}
+#teayudamosbodyid .cab_faq h2 {
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2.1rem;
+    font-weight: normal;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+#teayudamosbodyid .cab_faq p {
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+#teayudamosbodyid .toggle_faqs_div {
+    border-bottom: 1px solid #096879;
+    color: #096879;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+#teayudamosbodyid .toggle_faqs_div span {
+    float: right;
+    height: 30px;
+    width: 25px;
+}
+#teayudamosbodyid .toggle_faqs_div span.arrow_down {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -1000px -861px rgba(0, 0, 0, 0);
+}
+#teayudamosbodyid .toggle_faqs_div span.arrow_up {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -1000px -882px rgba(0, 0, 0, 0);
+}
+#teayudamosbodyid .lista_faq ul {
+    list-style: none outside none;
+}
+#teayudamosbodyid .lista_faq ul li {
+    border-bottom: 1px solid #A4A4A4;
+}
+#teayudamosbodyid .toggle_me li p {
+    color: #096879;
+    font-size: 1.6rem;
+}
+#teayudamosbodyid .toggle_me li:last-of-type {
+    border-bottom: medium none;
+}
+#teayudamosbodyid .toggle_me li .respuesta {
+    color: #666666;
+    font-size: 1.2rem;
+}
+#teayudamosbodyid .lista_faq ol li {
+    border-bottom: medium none;
+    color: #666666;
+}
+#comofuncionabodyid, #comofuncionabodyid footer #section_mkt.submain {
+    background-color: #D1D1CF;
+}
+#comofuncionabodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_how.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#comofuncionabodyid h2 {
+    color: #666666;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+#comofuncionabodyid h3 {
+    color: #666666;
+    font-weight: normal;
+    margin: 0;
+}
+#comofuncionabodyid .resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_how.png") no-repeat scroll center top #D1D1CF;
+    min-height: 650px;
+}
+#comofuncionabodyid .resto .box {
+    margin: auto;
+    padding: 110px 0 0 400px;
+    width: 590px;
+}
+#comofuncionabodyid .resto .cuatro_cols div {
+    color: #09687A;
+    float: left;
+    margin: 110px 0 0 25px;
+    width: 120px;
+}
+#quienessomosbodyid, #quienessomosbodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#quienessomosbodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_about.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#quienessomosbodyid .resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_about3.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 960px;
+}
+#quienessomosbodyid .resto ul {
+    padding: 0;
+}
+#quienessomosbodyid .resto li {
+    color: #666666;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2.1rem;
+    line-height: 16px;
+    list-style: none outside none;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#quienessomosbodyid .resto li span {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.4rem;
+    text-transform: none;
+}
+#quienessomosbodyid .resto ul.lista_about1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_faq.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    padding-top: 60px;
+}
+#quienessomosbodyid .resto ul.lista_about2 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_about2.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    padding-bottom: 60px;
+}
+#quienessomosbodyid .resto ul.lista_about3 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_faq.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    padding-top: 60px;
+}
+#quieressabermasbodyid, #quieressabermasbodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#quieressabermasbodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_know.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#quieressabermasDiv.resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/tira_azul_degradado.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    margin: auto;
+    padding-bottom: 100px;
+    text-align: center;
+    width: 960px;
+}
+#quieressabermasDiv h2 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_faq.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    color: #666666;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2.1rem;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+#quieressabermasDiv .formu {
+    margin: 10px auto;
+    width: 540px;
+}
+#quieressabermasDiv .formu label {
+    float: left;
+    text-align: left;
+}
+#quieressabermasDiv .formu .custom-checkbox label {
+    float: none;
+}
+#quieressabermasDiv .formu textarea {
+    height: 180px;
+}
+#quieressabermasDiv .formu .bloque_form_acepto {
+    clear: both;
+    margin-top: 20px;
+}
+#ventajasbodyid, #ventajasbodyid footer #section_mkt.submain {
+    background-color: #D1D1CF;
+}
+#ventajasbodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_advantage.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#ventajasbodyid .resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_advantage.png") no-repeat scroll center top #D1D1CF;
+    color: #666666;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2rem;
+    height: 650px;
+    margin: auto;
+    text-transform: uppercase;
+    width: 960px;
+}
+#ventajasbodyid .resto h2 {
+    color: #666666;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+#ventajasbodyid .resto ul {
+    list-style-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/ico_star.png");
+    margin: 220px auto;
+    width: 480px;
+}
+#ventajasbodyid .resto ul li {
+    padding-bottom: 20px;
+}
+#exitoentuciudadbodyid, #exitoentuciudadbodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#exitoentuciudadbodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_city.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#exitoentuciudadbodyid .resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_city2.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 960px;
+}
+#exitoentuciudadbodyid .resto h2 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_city1.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    color: #666666;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: auto;
+    padding: 10px 0 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#exitoentuciudadbodyid .resto ul {
+    padding: 0;
+}
+#exitoentuciudadbodyid .resto li {
+    color: #0B687A;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2rem;
+    list-style: none outside none;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#exitoentuciudadbodyid .resto li span {
+    color: #666666;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.4rem;
+    text-transform: none;
+}
+#politicaprivacidadbodyid, #politicaprivacidadbodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#politicaprivacidadbodyid .bg_h1_green h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_privacy.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#politicaprivacidadbodyid .resto {
+    margin: auto auto 50px;
+    padding-top: 30px;
+    width: 960px;
+}
+#politicaprivacidadbodyid .resto .legal_content h1 {
+    border-bottom: 1px solid #556A01;
+    color: #8FA526;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2.4rem;
+}
+#politicaprivacidadbodyid .resto .legal_content h2 {
+    color: #8FA526;
+    font-size: 1.6rem;
+}
+#politicaprivacidadbodyid .resto .legal_content .link_up {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -120px -655px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #556A01;
+    color: #FFFFFF;
+    float: right;
+    padding: 15px 20px 5px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 920px;
+}
+.resto .legal_content h2 {
+    border-top: 1px solid #A4A4A4;
+    padding-top: 10px;
+}
+.resto .legal_content h2:first-of-type {
+    border-top: medium none;
+}
+.resto .legal_content p {
+    color: #666666;
+    font-size: 1.2rem;
+}
+#condicionesdeusobodyid, #condicionesdeusobodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#condicionesdeusobodyid .bg_h1_blue h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_privacy.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+#condicionesdeusobodyid .resto {
+    margin: auto auto 50px;
+    padding-top: 30px;
+    width: 960px;
+}
+#condicionesdeusobodyid .resto .legal_content h1 {
+    border-bottom: 1px solid #709FA7;
+    color: #096879;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2.4rem;
+}
+#condicionesdeusobodyid .resto .legal_content h2 {
+    color: #096879;
+    font-size: 1.6rem;
+}
+#condicionesdeusobodyid .resto .legal_content .link_up {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png") no-repeat scroll -120px -655px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #709FA7;
+    color: #FFFFFF;
+    float: right;
+    padding: 15px 20px 5px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 920px;
+}
+#contactobodyid, #contactobodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#contactobodyid .resto {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 0;
+    width: 960px;
+}
+#contactobodyid .resto h2.tiraAzul {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/tira_azul_degradado.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    padding-top: 32px;
+}
+#contactobodyid .bg_h1_blue h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_contact.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    height: 33px;
+    padding-top: 55px;
+    text-align: center;
+}
+#contactobodyid .resto h2 {
+    color: #666666;
+    font-family: DINNeuzeitGroteskStd-BdCond,Arial,sans-serif;
+    font-size: 2.1rem;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#contactobodyid .resto h2.fondoStar {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_star.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    margin-top: 0;
+    padding-top: 60px;
+}
+#contactobodyid .resto p {
+    color: #666666;
+    font-size: 16px;
+    margin: 7px 0;
+    text-align: center;
+}
+#contactobodyid .resto em {
+    color: #0FA6C1;
+    font-size: 24px;
+    font-style: normal;
+}
+#contactobodyid .resto p strong {
+    color: #0FA6C1;
+}
+#contactobodyid strong.telef {
+    font-size: 24px;
+}
+#contactobodyid .contacto_tel:before {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: -1000px -725px;
+    background-repeat: no-repeat;
+    content: " ";
+    display: block;
+    height: 50px;
+    margin: 12px auto 0;
+    width: 26px;
+}
+#contactobodyid .contacto_mail a {
+    color: #0FA6C1;
+}
+#contactobodyid .contacto_mail:before {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: -1000px -816px;
+    background-repeat: no-repeat;
+    content: " ";
+    display: block;
+    height: 45px;
+    margin: 12px auto 0;
+    width: 49px;
+}
+#contactobodyid .datos_contacto {
+    margin: 0 auto;
+    width: 835px;
+}
+#contactobodyid .resto label {
+    float: left;
+}
+#contactobodyid .resto .asterisco {
+    color: #000000;
+    display: block;
+    font-size: 10px;
+    text-align: left;
+}
+#contactobodyid .resto .botonera .aceptarChecks {
+    display: inline-block;
+    margin-right: 10px;
+}
+#contactobodyid .resto .botonera .aceptarChecks .errorMessage {
+    margin-top: 26px;
+}
+#queteofrecemosbodyid, #queteofrecemosbodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#queteofrecemosbodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_ofrecemos.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 60px 0 10px;
+    text-align: center;
+}
+#queteofrecemosbodyid h2 {
+    color: #09687A;
+    font-family: DINNeuzeitGroteskStd-BdCond,sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+#queteofrecemosbodyid .resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_resto_ofrecemos.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    margin: 30px auto auto;
+    padding-bottom: 105px;
+    padding-top: 150px;
+    text-align: center;
+    width: 960px;
+}
+#queteofrecemosbodyid .resto ul {
+    padding: 0;
+}
+#queteofrecemosbodyid .resto li {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_star_ofrecemos.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    color: #666666;
+    font-size: 1.4rem;
+    line-height: 16px;
+    list-style: none outside none;
+    margin-bottom: 40px;
+    padding-left: 35px;
+}
+#queteofrecemosbodyid .resto li span {
+    font-family: GothamMedium,sans-serif;
+    font-size: 1.4rem;
+    text-transform: none;
+}
+#queteofrecemosbodyid .resto ul.lista_about1 {
+    margin-left: 370px;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: left;
+    width: 480px;
+}
+#encuestabodyid, #encuestabodyid footer #section_mkt.submain {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_luz.png") repeat-y scroll center top #D1D1CF;
+}
+#encuestabodyid h1 {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_encuesta.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 60px 0 10px;
+    text-align: center;
+}
+#encuestabodyid h2 {
+    color: #666666;
+    font-family: DINNeuzeitGroteskStd-BdCond,sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+#encuestabodyid .resto {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_faq.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    color: #666666;
+    font-size: 14px;
+    margin: 10px auto auto;
+    padding-bottom: 105px;
+    padding-top: 60px;
+    text-align: center;
+    width: 960px;
+}
+#encuestabodyid .ventajas_exclusivas {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/bg_cabecera_encuesta_foot.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    margin: 0 0 10px;
+    padding-bottom: 50px;
+}
+#encuestabodyid .resto p {
+    color: #096879;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+#encuestabodyid .yesno {
+    margin-bottom: 10px;
+}
+#encuestabodyid .yesno.withText {
+    float: left;
+    text-align: right;
+    width: 350px;
+}
+#encuestabodyid .pollQuestion {
+    float: left;
+    margin-bottom: 20px;
+    width: 610px;
+}
+#encuestabodyid .pollQuestion.fullWidth {
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#encuestabodyid .pollQuestion label {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+}
+#encuestabodyid .pollQuestion textarea {
+    color: #A5A5A5;
+    float: left;
+    font-size: 12px;
+    width: 100%;
+}
+#encuestabodyid .pollQuestion.fullWidth textarea {
+    color: #A5A5A5;
+    float: none;
+    font-size: 12px;
+    width: 600px;
+}
+#encuestabodyid .pollQuestion.fullWidth label {
+    margin-left: 179px;
+}
+#encuestabodyid .encuestaBtn {
+    color: #A5A5A5;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-left: 182px;
+    text-align: right;
+    width: 600px;
+}
+#encuestabodyid .ratios .custom-radio label {
+    background-position: -988px -967px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 40px 0 0;
+}
+#encuestabodyid .ratios .custom-radio label.checked {
+    background-position: -988px -1021px;
+}
+#encuestabodyid .custom-radio label {
+    background-position: -975px -967px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 60px 0 0;
+}
+#encuestabodyid .custom-radio label.checked {
+    background-position: -975px -1021px;
+}
+.black_overlay {
+    background-color: #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+.lbox {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 45px 1px #777777;
+    color: #333333;
+    display: none;
+    font-size: 1.4rem;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    width: 460px;
+    z-index: 1002;
+}
+.lbox .ico_close {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+.sharePanel {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.sharePanel a {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+}
+.sharePanel a.facebook {
+    background-position: -240px -704px;
+}
+.sharePanel a.twitter {
+    background-position: -261px -704px;
+}
+.sharePanel a.imprimir {
+    background-position: -282px -704px;
+}
+.lbox.recomienda {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: -240px -725px;
+    background-repeat: no-repeat;
+    height: 337px;
+    overflow: hidden;
+    padding-left: 275px;
+    padding-right: 45px;
+    padding-top: 90px;
+    width: 390px;
+}
+.lbox.recomienda label {
+    width: 390px;
+}
+.lbox.recomienda .botonera {
+}
+.lbox.recomienda h3 {
+    font-size: 2rem;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+.lbox.recomienda .note_recomienda {
+    font-size: 1.2rem;
+}
+.lbox.recomienda .note_recomienda.errorInEmails {
+    position: relative;
+    top: 12px;
+}
+.lbox.lboxIris {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_iris.jpg");
+    background-repeat: no-repeat;
+    font-size: 1.6rem;
+    height: 290px;
+    width: 750px;
+}
+.lbox.lboxIris .lboxIris_body {
+    padding: 10px 20px 20px 100px;
+}
+.lbox.lboxIris .lboxIris_foot {
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+}
+#generalNotification2 {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_lightbox.jpg");
+    background-repeat: no-repeat;
+    z-index: 99894;
+}
+#generalNotification2 .nota {
+    margin: 20px;
+}
+#generalNotification2 .lavadora {
+    margin: 20px;
+    text-align: center;
+}
+#generalNotification2.error div.nota {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprites_centros.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    color: #C84BF4;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+#generalNotification2.exito div.nota, #generalNotification2.normal div.nota {
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+#conditionsLightBox {
+    min-height: 400px;
+    width: 800px;
+    z-index: 99999;
+}
+#conditionsLightBox .wrapScroll {
+    margin: 10px;
+    max-height: 700px;
+    overflow-y: auto;
+}
+#conditionsLightBox .wrapScroll.contenido {
+    font-size: 1.2rem;
+}
+#conditionsLightBox .wrapScroll.contenido h1 {
+    border-bottom: 1px solid #096879;
+    color: #096879;
+    font-size: 2.4rem;
+    margin-top: 20px;
+}
+#conditionsLightBox .wrapScroll.contenido h2 {
+    border-top: 1px solid #A4A4A4;
+    color: #096879;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+#conditionsLightBox .wrapScroll.contenido h2:first-child {
+    border-top: 0 none;
+}
+#conditionsLightBox .wrapScroll.contenido .link_up {
+    display: none;
+}
+.linkOut {
+    margin-top: 10px;
+    padding-left: 76px;
+}
+.linkOut a {
+    color: #000000;
+    font-size: 1.2rem;
+}
+#NotificationPassResetErr {
+    padding: 2px 0;
+}
+form#dialog_reset_pass {
+    padding-bottom: 20px;
+}
+#suscription_options span {
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.lt-ie8 .barraVocento img {
+    float: left;
+}
+.lt-ie8 .barraVocento li {
+    margin-left: 12px;
+}
+.lt-ie8 .langAndLoc .selectBox {
+    clear: none;
+    float: left;
+}
+.lt-ie8 .custom-checkbox, .custom-radio {
+    display: inline;
+}
+.lt-ie8 .suscriAndSocial > div {
+    margin-top: -22px;
+}
+.lt-ie8 #menu_usuario ul {
+    margin-right: -35px;
+}
+.lt-ie8 #menu_usuario li {
+    margin-left: 12px;
+}
+.lt-ie8 .custom-checkbox label {
+    padding-left: 24px;
+}
+.lt-ie9 #contactobodyid .resto .aceptarChecks label {
+    float: none;
+    text-transform: none;
+}
+.lt-ie9 #section_ofertas article {
+    margin-right: 12px;
+}
+.lt-ie9 #section_productos section article, .lt-ie9 #section_mkt ul li {
+    margin-right: 9px;
+}
+.lt-ie9 .custom-checkbox input {
+    display: inline;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+}
+.lt-ie9 .formu .divSelect {
+    background-image: none;
+}
+.lt-ie9 #dialog_register .aceptarChecks {
+    clear: both;
+}
+.lt-ie9 #dialog_register .aceptarChecks label {
+    display: inline;
+    float: none;
+    margin-left: 10px;
+}
+.lt-ie8 #dialog_register .aceptarChecks label {
+    margin-left: 7px;
+}
+.lt-ie8 .formu .fechaSelects > .divSelect {
+    float: left;
+}
+.lt-ie9 body, .lt-ie9 #section_mkt ul li {
+    font-family: 'Open Sans',sans-serif;
+}
+#section_mkt ul li strong {
+    font-size: 21px;
+}
+#section_mkt ul li p {
+    font-size: 1.7rem;
+}
+.lt-ie9 #registroRapidoLightBox .checkA input {
+    font-size: 10px;
+    position: absolute;
+}
+.lt-ie9 #registroRapidoLightBox .checkA label {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: -3px;
+    text-transform: none;
+}
+.lt-ie9 #section_menu_footer {
+    margin-top: 21px;
+}
+.lt-ie8 #section_productos .barMiddle {
+    height: 141px;
+    width: 177px;
+}
+.lt-ie8 #section_productos .barTop {
+    width: 271px;
+}
+.lt-ie8 #section_productos .barBottom {
+    height: 33px;
+    width: 201px;
+}
+@media print {
+* {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+a, a:visited {
+    text-decoration: underline;
+}
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+}
+pre, blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+}
+thead {
+    display: table-header-group;
+}
+tr, img {
+    page-break-inside: avoid;
+}
+img {
+    max-width: 100% !important;
+}
+}
+.agile_carousel img {
+}
+.agile_carousel p, .agile_carousel ul, .agile_carousel ul li {
+    margin: 0;
+    padding: 0;
+}
+.agile_carousel {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    overflow: hidden;
+    position: relative;
+}
+.agile_carousel .slides {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.agile_carousel .slide {
+    float: left;
+}
+.agile_carousel .control_set {
+    position: absolute;
+}
+.agile_carousel .button_container {
+}
+.agile_carousel .ac_hover {
+    cursor: text;
+}
+.slide_button {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+.agile_carousel .numbered_button {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite_carousel.png") no-repeat scroll -1px 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 11px;
+    margin-left: 5px;
+    text-indent: -5000px;
+    width: 11px;
+}
+.agile_carousel .numbered_button.ac_selected {
+    background-position: -19px 0;
+}
+.agile_carousel .grouped_numbered_button {
+    float: left;
+}
+#multiple_slides_visible .control_set_1 {
+    float: right;
+    margin: 365px 0 0 5px;
+    position: absolute;
+    z-index: 101;
+}
+#multiple_slides_visible .previous_next_button {
+    background-color: #FFFFFF;
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite_ac_normal.png");
+    border: 1px solid #CFCECE;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 2px #DFDFDF;
+    height: 16px;
+    overflow: hidden;
+    text-indent: 1000px;
+    width: 16px;
+}
+#multiple_slides_visible .control_set_1 .ac_disabled {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite_ac_disabled.png");
+}
+#section_creditos {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_rallado.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 19px;
+}
+#section_creditos section {
+    margin: 0 auto;
+    width: 999px;
+}
+#section_creditos h2 {
+    text-transform: uppercase;
+}
+#section_creditos article {
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 1px rgba(153, 153, 153, 0.7);
+    padding: 15px 30px;
+}
+#section_creditos table {
+    font-size: 1.3rem;
+    width: 100%;
+}
+#section_creditos td {
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    line-height: 40px;
+    padding: 5px 0;
+}
+#section_creditos div {
+    float: right;
+    font-size: 1.4rem;
+    padding: 0 50px;
+}
+#section_creditos span {
+    border-left: 1px solid #000000;
+    float: right;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 190px;
+}
+#section_creditos span.grey {
+    color: #A6A6A6;
+}
+#section_creditos span.green {
+    color: #8FA526;
+}
+#section_ofertas.categorias h1 {
+    margin: 8px 0;
+}
+#section_ofertas.categorias h1 strong {
+    color: #3AD5F1;
+}
+.secciones_categorias {
+    margin: 0 auto;
+    padding-top: 10px;
+    text-transform: uppercase;
+    width: 999px;
+}
+.secciones_categorias p {
+    margin-top: 8px;
+}
+.secciones_categorias span {
+    font-size: 1.8rem;
+}
+.secciones_categorias a {
+    font-size: 1.5rem;
+}
+.secciones_categorias .unselected {
+    color: #A6A6A6;
+}
+.secciones_categorias .unselected:hover {
+    color: #00A9C2;
+}
+#section_ofertas.tematicas h1 {
+    margin: 8px 0;
+}
+#section_ofertas.tematicas h1 strong {
+    color: #3AD5F1;
+}
+#section_ofertas.tematicas .tematica_footer {
+    clear: both;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+#section_ofertas.tematicas .patrocinadores {
+    font-size: 1.2rem;
+}
+.secciones_tematicas {
+    clear: both;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-transform: uppercase;
+    width: 999px;
+}
+.secciones_tematicas p {
+    margin-top: 8px;
+}
+.secciones_tematicas span {
+    font-size: 1.8rem;
+}
+.secciones_tematicas a {
+    font-size: 1.5rem;
+}
+.secciones_tematicas .unselected {
+    color: #A6A6A6;
+}
+.secciones_tematicas .unselected:hover {
+    color: #00A9C2;
+}
+#merchant_sales {
+    background: url("http://local.oferplan-pre.diariovasco.com/themes/site_themes/vocento/img/layout/fondo_rallado.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 19px;
+}
+#merchant_sales .mobile_apps {
+    font-size: 1.6rem;
+    height: 75px;
+    margin: 0 auto;
+    padding: 20px 80px;
+    width: 842px;
+}
+#merchant_sales .mobile_apps span {
+    display: block;
+    float: left;
+}
+#merchant_sales .mobile_apps span.market {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#merchant_sales .mobile_apps .descripcion {
+    margin-right: 20px;
+    margin-top: 15px;
+    width: 450px;
+}
+#merchant_sales .merchant_deal_info {
+    float: left;
+    width: 68%;
+}
+#merchant_sales .merchant_deal_info p {
+    margin: 3px 0;
+}
+#merchant_sales .provincias, #merchant_sales .merchan_sales_info article {
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    box-shadow: 6px 6px 1px rgba(153, 153, 153, 0.7);
+    margin: 0 auto;
+    padding: 15px 30px;
+    width: 999px;
+}
+#merchant_sales .provincias {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+#merchant_sales .provincias a:hover {
+    color: #00869C;
+}
+#merchant_sales .provincias a.selected {
+    color: #00869C;
+}
+#merchant_sales .merchan_sales_info article {
+    margin-top: 20px;
+}
+#merchant_sales .merchant_deal_info {
+    margin-bottom: 20px;
+}
+#merchant_sales .merchant_deal_info a.custom_link {
+    color: #000000;
+}
+#merchant_sales .merchant_deal_info a.custom_link strong {
+    color: #00A9C2;
+}
+#merchant_sales .merchant_deal_dates {
+    border-left: 1px solid #AAAAAA;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    width: 25%;
+}
+#merchant_sales .merchant_deal_dates p {
+    margin: 5px 0;
+}
+#merchant_sales .publication_time {
+    text-transform: uppercase;
+}
+#merchant_sales .separator {
+    clear: both;
+    color: #AAAAAA;
+    width: 100%;
+}
+#merchant_sales .deal_sell_info p {
+    color: #8FA526;
+    margin: 3px 0;
+}
+#merchant_sales .deal_sell_info table {
+    margin-bottom: 20px;
+}
+#merchant_sales .deal_sell_info td.header_items {
+    color: #8FA526;
+    font-weight: bold;
+    text-align: center;
+    width: 42px;
+}
+#merchant_sales .deal_sell_info td.first {
+    text-align: left;
+    width: 175px;
+}
+#merchant_sales .deal_sell_info td h4 {
+    margin: 2px 0;
+}
+#merchant_sales .deal_sell_info td.domicilio h4 {
+    margin: 15px 0 2px;
+}
+#merchant_sales .deal_sell_info td.resultados h4 {
+    margin: 2px 0;
+}
+#merchant_sales .deal_sell_info td.first.address h4 {
+    font-weight: normal;
+}
+#merchant_sales .deal_sell_info td.border_left {
+    border-left: 1px solid #AAAAAA;
+    font-weight: normal;
+    width: 42px;
+}
+#merchant_sales .deal_sell_info td.border_left.ventas h4 {
+    font-weight: normal;
+}
+#merchant_sales .deal_sell_info td.border_left h4 {
+    text-align: center;
+    vertical-align: bottom;
+}
+#merchant_validation_page, #merchant_shipement_page {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/fondo_rallado.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 19px;
+}
+#merchant_validation_page section, #merchant_shipement_page section {
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    box-shadow: 6px 6px 1px rgba(153, 153, 153, 0.7);
+    margin: 0 auto;
+    padding: 15px 30px;
+    width: 999px;
+}
+#merchant_validation_page .merchant_validation_resume {
+    background: none repeat scroll 0 0 #3AD6EF;
+    float: left;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 10px;
+}
+#merchant_validation_page .merchant_validation_resume p {
+    margin: 0;
+}
+#merchant_validation_page .merchant_validation_resume .data {
+    font-size: 1.6rem;
+    margin-top: 5px;
+}
+#merchant_shipement_page .shimpent_info {
+    margin: 15px 0;
+}
+.messagePage {
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    box-shadow: 6px 6px 1px rgba(153, 153, 153, 0.7);
+    margin: 0 auto;
+    padding: 15px 30px;
+    width: 999px;
+}
+.datosBasicos ul li span.deal_agotado {
+    background-color: #DBDBDB;
+    font-size: 32px;
+    left: 0;
+    padding: 19px 22px;
+    position: absolute;
+    top: 0;
+    width: 146px;
+}
+#section_ofertas .barBottom em.deal_agotado {
+    background-color: #DBDBDB;
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 33px;
+    padding: 9px 15px 8px;
+    width: 100px;
+}
+#section_productos .barBottom em.deal_agotado {
+    background-color: #DBDBDB;
+    float: left;
+    font-size: 1.4rem;
+    font-style: normal;
+    padding: 7px 8px;
+}
+.title_mydeals {
+    float: left;
+    width: 30%;
+}
+.filter_mydeals {
+    float: right;
+    width: 374px;
+}
+.filter_mydeals .divSelect {
+    float: left;
+    width: 180px;
+}
+#dialog_register .filter_mydeals form {
+    border: 0 none;
+}
+#dialog_register.mydeals {
+    padding-bottom: 39px;
+}
+.my_deals {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.my_deals .my_deals_detail_left {
+    float: left;
+    width: 220px;
+}
+.my_deals .my_deals_detail_right {
+    float: right;
+    width: 650px;
+}
+.my_deals .my_deals_detail_left .status {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.my_deals .my_deals_detail_right ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.my_deals .my_deals_detail_right ul li {
+    border-bottom: 1px solid #A4A4A4;
+    font-size: 14px;
+    list-style: none outside none;
+    padding: 10px 0;
+}
+.my_deals .my_deals_detail_right ul li.title_deal a {
+    color: #2A2A2A;
+    font-size: 18px;
+    text-decoration: none;
+}
+.my_deals .my_deals_detail_right ul li.title_deal a:hover {
+    color: #666666;
+}
+.my_deals .my_deals_detail_right ul li.title_deal p {
+    color: #666666;
+    font-size: 13px;
+    margin: 0;
+}
+.my_deals .my_deals_detail_right ul li.dates_deal {
+    color: #000000;
+    text-transform: uppercase;
+}
+.my_deals .my_deals_detail_right ul li.dates_deal strong {
+    color: #90A429;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.my_deals .my_deals_detail_right ul li em {
+    font-style: normal;
+    text-transform: uppercase;
+}
+.my_deals .my_deals_bottom {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.my_deals .my_deals_bottom .my_deals_detail_left {
+    width: 650px;
+}
+.my_deals .my_deals_bottom .my_deals_detail_right {
+    font-size: 16px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 220px;
+}
+.my_deals .my_deals_bottom .my_deals_detail_right strong {
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 25px;
+}
+.my_deals .my_deals_bottom .my_deals_detail_right span {
+    font-size: 12px;
+}
+.my_deals .my_deals_bottom .my_deals_detail_left ul {
+    margin: 0;
+    padding: 4px 0 0;
+}
+.my_deals .my_deals_bottom .my_deals_detail_left ul li {
+    display: inline;
+    font-size: 16px;
+    list-style: none outside none;
+}
+.my_deals .my_deals_bottom .my_deals_detail_left ul li a:hover {
+    color: #0C687D;
+}
+.my_deals .my_deals_bottom .my_deals_detail_left ul li:after {
+    content: "|";
+    padding: 0 5px;
+}
+.my_deals .my_deals_bottom .my_deals_detail_left ul li:last-child:after {
+    content: none;
+}
+.my_deals .my_deals_detail_left .deal_img {
+    float: left;
+    position: relative;
+}
+.my_deals .my_deals_detail_left .deal_img .deal_discount {
+    background-color: #D1FF19;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+}
+.send_sms {
+    position: relative;
+}
+.send_sms .send_mobile {
+    display: none;
+    left: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    z-index: 99;
+}
+#dialog_register .send_sms .send_mobile form {
+    border: 0 none;
+    padding: 0;
+}
+.send_sms .send_mobile .close_pop.fr {
+    float: right;
+    position: absolute;
+    right: 6px;
+    top: 0;
+}
+.send_sms .send_mobile p {
+    font-size: 11px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.send_sms .send_mobile input.btn {
+    float: right;
+    font-weight: normal;
+}
+.select_point {
+    position: relative;
+}
+.select_point .coupon_options {
+    display: none;
+    left: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    z-index: 99;
+}
+.select_point .coupon_options .close_pop.fr {
+    float: right;
+    position: absolute;
+    right: 6px;
+    top: 0;
+}
+.select_point .coupon_options p.choose {
+    font-size: 11px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+#dialog_register .select_point .coupon_options form {
+    border: 0 none;
+    padding: 0;
+}
+.select_point .coupon_options input.btn {
+    float: right;
+    font-weight: normal;
+}
+.select_point .coupon_options .divSelect {
+    margin: 10px 0;
+    width: 200px;
+}
+.my_deals .status.status_Activo, .my_deals .status.status_Reparto {
+    color: #ABBD5A;
+}
+#dialog_register.status_caducado {
+    background-color: #E2E2E2;
+}
+.generate_invoice_pop.step1.logisticForm {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    left: 120px;
+    padding: 10px;
+    position: absolute;
+    top: 185px;
+    width: 450px;
+    z-index: 999;
+}
+#dialog_register .generate_invoice_pop.step1.logisticForm form {
+    border: 0 none;
+    float: left;
+}
+.generate_invoice_pop.step1.logisticForm .bloque_form {
+    float: left;
+    width: 100%;
+}
+.generate_invoice_pop.step1.logisticForm .bloque_form.last_blk {
+    margin-top: 35px;
+}
+.generate_invoice_pop.step1.logisticForm .bloque_form p {
+    float: left;
+    margin: 0;
+    width: 180px;
+}
+.generate_invoice_pop.step1.logisticForm .bloque_form p.mR20 {
+    margin: 0 20px 0 0;
+    width: 250px;
+}
+.generate_invoice_pop.step1.logisticForm .bloque_form .btn.tipo_5.close_pop {
+    float: right;
+}
+.generate_invoice_pop.step1.logisticForm .bloque_form .divSelect {
+    float: left;
+    overflow: visible;
+    width: 168px;
+}
+.generate_invoice_pop.step1.logisticForm .bloque_form fieldset {
+    display: block;
+}
+.generate_invoice_pop.step1.logisticForm .bloque_form label {
+    font-weight: normal;
+}
+.generate_invoice_pop.step1.logisticForm .fieldNote.f8 {
+    color: #E350F6;
+}
+.msgPopup_exp {
+    display: none;
+    left: 30px;
+    padding: 10px;
+    position: absolute;
+}
+.msgPopup_exp p.first {
+    margin-right: 20px !important;
+}
+.generate_invoice_pop select {
+    width: 100% !important;
+}
+.cambia_datos_usuario.blk {
+    display: none;
+    left: 50px;
+    padding: 10px;
+    position: absolute;
+    text-align: justify;
+    text-transform: uppercase;
+    top: 170px;
+    width: 340px;
+}
+.cambia_datos_usuario.blk .btn.tipo_5.close_dialog {
+    float: right;
+}
+.cambia_datos_usuario.blk p {
+    margin-top: 30px;
+}
+.cambia_datos_usuario.blk .close_pop {
+    float: right;
+    font-weight: normal;
+}
+article.genericProduct {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/generico_producto.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: "DINNeuzeitGroteskStd-BdCond",sans-serif;
+    font-size: 26px;
+    height: 127px !important;
+    min-height: 100px !important;
+    padding: 75px 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 450px !important;
+}
+article.genericService {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/generico_servicios.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: "DINNeuzeitGroteskStd-BdCond",sans-serif;
+    font-size: 30px;
+    height: 325px !important;
+    min-height: 325px !important;
+    padding: 75px 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 280px !important;
+}
+article.genericService div {
+    float: left;
+    font-size: 80px;
+    width: 100%;
+}
+article.genericFlex {
+    background: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/generico_flex.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: "DINNeuzeitGroteskStd-BdCond",sans-serif;
+    font-size: 30px;
+    height: 325px !important;
+    min-height: 325px !important;
+    padding: 75px 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 280px !important;
+}
+article.genericFlex div {
+    float: left;
+    width: 100%;
+}
+article.genericFlex .text1 {
+    font-size: 90px;
+    height: 95px;
+}
+article.genericFlex .text2 {
+    font-size: 44px;
+    height: 35px;
+    letter-spacing: 7px;
+}
+article.genericFlex .text3 {
+    font-size: 80px;
+    height: 90px;
+}
+article.genericFlex .text4 {
+    font-size: 24px;
+    height: 24px;
+}
+.mod_view input[type="text"] {
+    background-color: #EEEEEE !important;
+    border: 1px solid #BBBBBB;
+    color: #999999;
+    width: 150px;
+}
+#state .mod_view, #delivery_province .mod_view, #billProvincia .mod_view {
+    background-color: #EEEEEE !important;
+    border: 1px solid #BBBBBB;
+    color: #999999;
+    padding: 1px 6px;
+    width: 138px;
+}
+span.noshowprice {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.deal_gift.gifted {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/sprite.png");
+    background-position: -1000px -924px;
+    color: #8FA526;
+    float: right;
+    font-size: 14px;
+    padding-left: 20px;
+    width: auto;
+}
+#mySalesBody .menu_usuario li a.mySalesLink {
+    background-color: #3AD5F1;
+}
+#myDataBody .menu_usuario li a.myDataLink {
+    background-color: #3AD5F1;
+}
+#myDealsBody .menu_usuario li a.myDealsLink {
+    background-color: #3AD5F1;
+}
+#myCreditsBody .menu_usuario li a.myCreditsLink {
+    background-color: #3AD5F1;
+}
+.menuPrincipal h1 {
+    font-size: 1.4rem;
+}
+#section_ofertas article .barMiddle h2 a {
+    color: #000000;
+    font-weight: bold;
+}
+@media print {
+#section_productos section article {
+    border: 1px solid;
+}
+#section_mkt ul li {
+    border: 1px solid;
+    width: 206px;
+}
+.menuPrincipal {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+.datosBasicos ul li {
+    border: 1px solid;
+    width: 171px;
+}
+.datosBasicos ul li.b2 {
+    width: 133px;
+}
+.datosBasicos ul li.b6 {
+    width: 188px;
+}
+.descuento div {
+    background-image: url("http://oferplan.ideal.es/themes/site_themes/vocento/img/layout/pixel_trans.png") !important;
+    filter: none !important;
+}
+header .barraSuperior {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+}
+#vocentoidform input {
+    font-family: Arial,sans-serif !important;
+}
+#dialog_registerForm input {
+    font-family: Arial,sans-serif !important;
+}
